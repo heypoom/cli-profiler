@@ -26,3 +26,7 @@ printf "Neovim startup time: "
 timeof nvim --headless +exit
 echo
 
+printf "Vi startup time: "
+timeof vi +exit
+echo
+
