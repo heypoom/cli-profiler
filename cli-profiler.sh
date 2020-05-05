@@ -10,6 +10,14 @@ printf "Fish shell startup time: "
 timeof fish -c exit
 echo
 
+printf "Zsh shell startup time: "
+timeof zsh -c exit
+echo
+
+printf "Bash shell startup time: "
+timeof bash -c exit
+echo
+
 printf "Tmux startup time: "
 timeof tmux new -s temp -d fish -c exit
 echo
